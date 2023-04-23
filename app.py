@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 client_id = '106136'
 client_secret = '2510564984d9050ccf1b5bd58b129192c880037c'
-callback_url = 'https://yourappservice.azurewebsites.net/webhook'
+callback_url = 'https://stravaappwebhook.azurewebsites.net/webhook'
 verify_token = 'STRAVA'
 
 @app.route("/")
